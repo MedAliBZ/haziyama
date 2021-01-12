@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1610146600 source:d:\c++\exam_2013\main.cpp
+	<iostream>
+	"Date.h"
+	"Pharmacie.h"
+
+1610144038 source:d:\c++\exam_2013\date.cpp
+	"Date.h"
+
+1610144038 d:\c++\exam_2013\date.h
+	<iostream>
+
+1610144830 source:d:\c++\exam_2013\antibiotique.cpp
+	"Antibiotique.h"
+
+1610144830 d:\c++\exam_2013\antibiotique.h
+	"Medicament.h"
+
+1610145820 d:\c++\exam_2013\medicament.h
+	"Date.h"
+	<string>
+
+1610144830 source:d:\c++\exam_2013\medicament.cpp
+	"Medicament.h"
+
+1610145053 source:d:\c++\exam_2013\antiflammatoire.cpp
+	"Antiflammatoire.h"
+
+1610145053 d:\c++\exam_2013\antiflammatoire.h
+	"Medicament.h"
+
+1610146668 source:d:\c++\exam_2013\pharmacie.cpp
+	"Pharmacie.h"
+	<typeinfo>
+
+1610146413 d:\c++\exam_2013\pharmacie.h
+	"Antibiotique.h"
+	"Antiflammatoire.h"
+	<vector>
+
